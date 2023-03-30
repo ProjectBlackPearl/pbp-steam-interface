@@ -1,9 +1,9 @@
 # pbp-steam-interface
-Server application for routing steam api calls back to the end user.
+Server application for routing Steam API calls back to an end user.
 
 ## Building
-- have rustup stable installed
-- run `cargo build --release`, the dependencies will be fetched automatically
+- Have rustup stable installed
+- Run `cargo build --release`, the dependencies will be installed automatically
 
 ## How it works
 The server listens for connections on a specific port, and expects an http request containing only the Steam ID of a user.<br/>
