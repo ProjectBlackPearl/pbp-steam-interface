@@ -11,3 +11,4 @@ It then uses the Steam API to fetch the installed games of the user, returning t
 
 ## Steam API key
 Make sure to have your Steam API key in a '.env' file, which should reside in the same directory as the executable.
+It will be read in this format: `STEAM_API_KEY=YOUR_STEAM_API_KEY_HERE`
